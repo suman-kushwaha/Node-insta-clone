@@ -1,6 +1,6 @@
 const express = require('express');
 const router = new express.Router();
-const postModel = require('../model/postModel');
+const postModel = require('../model/post');
 const multer = require("multer");
 const { GridFsStorage } = require("multer-gridfs-storage");
 require("dotenv").config();
